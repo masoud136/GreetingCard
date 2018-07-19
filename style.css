@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Gaegu', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
+.sec1{ 
+    box-shadow: 50px 100px #888888;
+height: 800px;
+border-radius: 25px;
+width: 450px;
+position: relative;
+background-image: url(images.jpg);
+background-size: 500px,700px;
+
+background-color: aquamarine;
+margin-left: 30%;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+
+.dd1{
+
+   
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    margin-bottom: 50px;
+    -webkit-transform: rotateY(-60deg); /* Safari 3-8 */
+    transform: rotateY(-60deg);
+}
+
+    
+.imgs{
+    border-radius: 100px;
+}
+@keyframes example {
+    
+    0%   {background-color:rgb(184, 30, 30); left:0px; top:0px; opacity: .5;}
+    25%  {background-color:yellow; left:200px; top:0px;opacity: .5;}
+    50%  {background-color:rgb(64, 64, 158); left:200px; top:200px;opacity: .4;}
+    75%  {background-color:rgb(117, 199, 40); left:10px; top:320px;opacity: .3;}
+    100% {background-color:rgb(136, 255, 0); left:0px; top:0px;
+    
+    width: 0px; height: 0px;opacity: .1;}
+   
+}
+#back  h3 {
+
+font-style: italic;
+font-size: 70px;
+
+margin-top: -420pX;
+margin-left: 100px;
+float: right;
+text-shadow: 2px 2px #ff0000;
+-webkit-transform: rotateY(60deg); /* Safari 3-8 */
+-webkit-transform-style: preserve-3d; /* Safari 4-8 */
+transform: rotateY(60deg);
+transform-style: preserve-3d;
+}
+
+
+.bt {
+float: right;
+
+border-radius: .5;
+width: 70px;
+height: 40px;
+opacity: .5;
+}
+.bt:hover{
+    opacity: 10;
+}
+.imgs:hover{
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    -webkit-transform-origin: 20% 40%; /* Safari 3-8 */
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+#back  h3:hover{
+    font-size: 160px;
+
+}
+@media screen and (max-width: 900px) {
+    .sec1 {
+        width: 50%;
+    }
+    .imgs   {
+
+        width: 20%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .sec1 {
+        width: 100%;
+    }
+    .imgs   {
+
+        width: 40%;
+        height: 40%;
+    }
+    #back  h3{
+        margin-right: 20%;
+    }
+    .bt{
+        float: left;
+        margin-top: 10%;
+    }
+}
+
+.back br{
+    font-size: 70px;
+
+}
